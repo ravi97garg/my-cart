@@ -1,0 +1,51 @@
+.row{
+    background-color: #d9f6d6;
+    color: #28813f;
+    font-size: 16px;
+}
+.row:first-child{
+    border-radius: 2px 0px;
+}
+
+.row:last-child{
+    border-radius: 0px 2px;
+}
+
+td {
+    border: 0;
+    padding: 6px 20px;
+}
+
+.itemName{
+    width: 50%
+}
+
+.itemQty{
+    width: 15%;
+}
+
+.itemCost{
+    width: 15%;
+}
+
+button{
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.add-btn{
+    background-color: #d9f6d6;
+    border: 1px solid #28813f;
+    color: #28813f;
+}
+
+.sub-btn{
+    background-color: #f99ac7;
+    border: 1px solid #d10052;
+    color: #d10052;
+}
+
+.rem-btn{
+    background-color: #d9d9d9;
+    border: 1px solid #222;
+}

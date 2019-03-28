@@ -1,6 +1,7 @@
 import React from 'react';
 import AddItem from "./AddItem";
 import Item from "./Item";
+import './Cart.css';
 
 class Cart extends React.Component{
     state = {
@@ -59,7 +60,7 @@ class Cart extends React.Component{
     render(){
         let {items} = this.state;
         return (
-            <div>
+            <div className='cart'>
                 <h2>My Cart</h2>
                 <AddItem callback = {this.addItem}/>
                 <table>
@@ -92,7 +93,7 @@ function Total(props) {
         total+=(item.itemCost*item.itemQty);
     });
     return (
-        <div>
+        <div className='total clearfix'>
             <span className='left'>Total</span>
             <span className='right'>{total}</span>
         </div>

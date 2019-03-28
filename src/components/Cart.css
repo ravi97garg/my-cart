@@ -1,0 +1,29 @@
+.cart{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.total{
+    margin: 10px auto;
+    width: 500px;
+    padding: 6px 20px;
+    background-color: #4666b9;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix:before, .clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
